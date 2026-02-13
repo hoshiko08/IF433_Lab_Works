@@ -1,9 +1,10 @@
 package oop_106701_MauraNahdaEfendi.week01
 
 fun main () {
-    var name: String = "John Thor"
-    var score: Int = 80
+    // REFACTOR: Gunakan val dan hapus tipe data eksplisit
+    var name = "John Thor"
+    var score = 80
 
-    //Concatenation gaya lama
-    print("Nama: " + name + ", Nilai:" + score)
+    //REFACTOR: String Tamplate ($name)
+    print("Nama:  $name  , Nilai:  $score")
 }
