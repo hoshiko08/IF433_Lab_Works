@@ -1,6 +1,11 @@
 package oop_106701_MauraNahdaEfendi.week02
 
-class Student(val name: String, val nim: String, val major: String) {
+class Student(
+    val name: String,
+    val nim: String,
+    val major: String,
+    val gpa: Double = 0.0
+) {
 
     init {
         // validasi sederhana: cek panjang NIM
