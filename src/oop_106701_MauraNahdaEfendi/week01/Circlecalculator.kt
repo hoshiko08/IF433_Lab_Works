@@ -1,4 +1,4 @@
-package oop_106701_MauraNahdaEfendi.week01.Week01
+package oop_106701_MauraNahdaEfendi.week01
 
 fun main() {
     val radius = 7.0

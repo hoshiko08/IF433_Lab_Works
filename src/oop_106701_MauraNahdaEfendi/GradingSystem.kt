@@ -1,4 +1,4 @@
-package oop_106701_MauraNahdaEfendi.week01
+package oop_106701_MauraNahdaEfendi
 
 fun main () {
     // REFACTOR: Gunakan val dan hapus tipe data eksplisit
