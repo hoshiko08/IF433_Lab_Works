@@ -1,8 +1,9 @@
 package oop_106701_MauraNahdaEfendi.week02
 
-class Student (val name: String, val nim: String, val major: String){
+class Student(val name: String, val nim: String, val major: String) {
+
     init {
-        //validasi sederhana: cek panjang NIM
+        // validasi sederhana: cek panjang NIM
         if (nim.length != 5) {
             println("WARNING: Objek tercipta dengan NIM ($nim) yang tidak valid!")
             println("Data Mahasiswa $name mungkin akan bermasalah di sistem")
@@ -10,4 +11,8 @@ class Student (val name: String, val nim: String, val major: String){
             println("LOG: Objek student $name berhasil dialokasikan di memory")
         }
     }
+
+    // Secondary Constructor (jalur tanpa major)
+    constructor(name: String, nim: String) :
+            this(name, nim, "Non-Matriculated")
 }
