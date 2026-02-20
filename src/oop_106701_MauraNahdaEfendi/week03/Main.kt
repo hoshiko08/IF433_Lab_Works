@@ -1,15 +1,13 @@
 package oop_106701_MauraNahdaEfendi.week03
 
 fun main() {
-    val e = Employee()
-    e.name = "Budi"
 
-    e.salary = -1000
-    e.salary = 5000
+    val weapon = Weapon("Excalibur")
 
-    e.updatePerformanceRating(4)
+    weapon.damage = -50
+    weapon.damage = 9999
 
-    println("Nama: ${e.name}")
-    println("Salary: ${e.salary}")
-    println("Bonus: ${e.bonus}")
+    println("Weapon: ${weapon.name}")
+    println("Damage: ${weapon.damage}")
+    println("Tier: ${weapon.tier}")
 }
