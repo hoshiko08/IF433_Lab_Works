@@ -5,6 +5,10 @@ class Employee {
 
     var salary: Int = 0
         set(value) {
-            this.salary = value // SALAH! menyebabkan infinite loop
+            if (value < 0) {
+                println("Salary tidak boleh negatif!")
+            } else {
+                field = value
+            }
         }
 }
