@@ -38,4 +38,21 @@ fun main() {
     // 3. Menguji hitungLuas lingkaran (1 parameter Double) [cite: 85]
     val luasLingkaran = math.hitungLuas(7.0)
     println("Hasil MathHelper - Luas Lingkaran (r 7.0): $luasLingkaran")
+
+    // --- TUGAS MANDIRI 2 ---
+    println("\n=== SISTEM PEMBAYARAN ===")
+    val myEWallet = EWallet("John's Dana", 50000.0)
+    val myCreditCard = CreditCard("John's Visa", 100000.0)
+
+    val listPayment: List<PaymentMethod> = listOf(myEWallet, myCreditCard)
+
+    for (payment in listPayment) {
+        payment.processPayment(75000.0)
+
+        // Smart Casting Challenge
+        if (payment is EWallet) {
+            payment.topUp(50000.0)
+            payment.processPayment(75000.0)
+        }
+    }
 }
