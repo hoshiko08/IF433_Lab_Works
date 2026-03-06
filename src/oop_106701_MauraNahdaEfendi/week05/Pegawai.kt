@@ -1,4 +1,6 @@
 package oop_106701_MauraNahdaEfendi.week05
 
-class Pegawai {
+abstract class Pegawai(val nama: String) {
+    // Abstract function tidak memiliki body
+    abstract fun bekerja()
 }
