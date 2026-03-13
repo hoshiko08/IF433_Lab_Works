@@ -1,4 +1,6 @@
 package oop_106701_MauraNahdaEfendi.week06
 
-class Clickable {
+interface Clickable {
+    val name: String // Abstract property
+    fun click()
 }
