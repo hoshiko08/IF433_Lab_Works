@@ -14,9 +14,8 @@ fun main() {
 
     for (raw in rawApiData) {
         try {
-            val product = parser.parseProduct(raw)
-            if (product != null) {
-                parser.checkout(product)
+            parser.parseProduct(raw)?.let {
+                parser.checkout(it)
             }
         } catch (e: IllegalArgumentException) {
             println("Error: ${e.message}")
