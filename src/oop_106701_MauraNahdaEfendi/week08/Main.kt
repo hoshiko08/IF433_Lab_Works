@@ -28,4 +28,8 @@ fun main() {
         val text = item as? String ?: "Not a String"
         println(text)
     }
+
+    val nullableString: String? = null
+    println(nullableString!!)
+
 }
