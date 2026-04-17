@@ -23,4 +23,9 @@ fun main() {
             println("String: $text")
         }
     }
+
+    for (item in mixedList) {
+        val text = item as? String ?: "Not a String"
+        println(text)
+    }
 }
