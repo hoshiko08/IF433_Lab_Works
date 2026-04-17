@@ -16,4 +16,11 @@ fun main() {
         println("City found: $it")
     }
     val mixedList: List<Any> = listOf("Hello", 123, "World", 45.6)
+
+    for (item in mixedList) {
+        val text = item as? String
+        if (text != null) {
+            println("String: $text")
+        }
+    }
 }
