@@ -39,4 +39,6 @@ fun main() {
 
     val javaData = LegacyJavaAPI.getData()!!
     println(javaData)
+
+    runMockUnitTest()
 }
