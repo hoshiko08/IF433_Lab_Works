@@ -32,4 +32,8 @@ fun main() {
     val nullableString: String? = null
     println(nullableString!!)
 
+    val safeValue = requireNotNull(nullableString) {
+        "Value cannot be null"
+    }
+    println(safeValue)
 }
