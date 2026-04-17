@@ -36,4 +36,7 @@ fun main() {
         "Value cannot be null"
     }
     println(safeValue)
+
+    val javaData = LegacyJavaAPI.getData()!!
+    println(javaData)
 }
