@@ -5,3 +5,5 @@ fun main() {
 
     val evenNumbers = numbers.filter { it % 2 == 0 }
     println("Even numbers: $evenNumbers")
+    val squaredNumbers = numbers.map { it * it }
+    println("Squared numbers: $squaredNumbers")
