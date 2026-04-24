@@ -11,4 +11,8 @@ fun main() {
     mutableFruits.remove("Banana")
 
     println("Mutable List after changes: $mutableFruits")
+
+    // Set (tidak menerima duplikat)
+    val numbers = setOf(1, 2, 3, 3, 4, 4, 5)
+    println("Set (no duplicates): $numbers")
 }
