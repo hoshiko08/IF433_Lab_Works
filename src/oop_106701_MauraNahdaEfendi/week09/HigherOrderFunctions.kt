@@ -7,3 +7,10 @@ fun main() {
     println("Even numbers: $evenNumbers")
     val squaredNumbers = numbers.map { it * it }
     println("Squared numbers: $squaredNumbers")
+    val sortedDesc = numbers.sortedByDescending { it }
+    println("Sorted Descending: $sortedDesc")
+
+    sortedDesc.forEach {
+        println("Value: $it")
+    }
+}
