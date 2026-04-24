@@ -9,3 +9,12 @@ fun main() {
         Student("Charlie", 90),
         Student("Diana", 60)
     )
+    val result = students
+        .filter { it.grade >= 75 }
+        .sortedByDescending { it.grade }
+        .map { "${it.name} - ${it.grade}" }
+
+    result.forEach {
+        println(it)
+    }
+}
