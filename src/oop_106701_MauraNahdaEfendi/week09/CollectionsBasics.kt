@@ -15,4 +15,14 @@ fun main() {
     // Set (tidak menerima duplikat)
     val numbers = setOf(1, 2, 3, 3, 4, 4, 5)
     println("Set (no duplicates): $numbers")
+
+    // Map (key-value)
+    val studentMap = mapOf(
+        "A" to "Alice",
+        "B" to "Bob",
+        "C" to "Charlie"
+    )
+
+    println("Map: $studentMap")
+    println("Value for key B: ${studentMap["B"]}")
 }
