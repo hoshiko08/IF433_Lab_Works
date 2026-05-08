@@ -19,4 +19,14 @@ fun main() {
         println(name)
         println(age)
     }
+
+    val admin = User().apply {
+        name = "Admin"
+        age = 30
+    }.also {
+        println("Admin initialized: ${it.name}")
+    }
+
+    println(admin.name)
+    println(admin.age)
 }
