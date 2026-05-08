@@ -15,6 +15,8 @@ fun main() {
         println("User created: ${it.name}")
     }
 
-    println(user.name)
-    println(user.age)
+    with(user) {
+        println(name)
+        println(age)
+    }
 }
