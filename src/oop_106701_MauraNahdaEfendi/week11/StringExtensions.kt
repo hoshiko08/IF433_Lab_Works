@@ -7,3 +7,7 @@ fun String.reverseWords(): String {
 fun String.addExclamation(): String {
     return "$this!"
 }
+
+fun String?.safeLength(): Int {
+    return this?.length ?: 0
+}
