@@ -18,4 +18,11 @@ fun main() {
 
     println(getData(88.8))
     println(getData("Kotlin"))
+
+    val numericalStorage = NumericalStorage(10)
+
+    println(numericalStorage.square())
+
+    println(compareValues(10, 20))
+    println(compareValues("Apple", "Banana"))
 }
