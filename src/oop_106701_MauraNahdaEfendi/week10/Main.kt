@@ -7,4 +7,9 @@ fun main() {
 
     println(intBox.getItem())
     println(stringBox.getItem())
+
+    val pairBox = PairBox("ID001", "Laptop")
+
+    println(pairBox.getKey())
+    println(pairBox.getValue())
 }
