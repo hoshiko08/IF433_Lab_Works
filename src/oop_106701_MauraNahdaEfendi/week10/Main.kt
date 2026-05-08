@@ -12,4 +12,10 @@ fun main() {
 
     println(pairBox.getKey())
     println(pairBox.getValue())
+
+    printData(99.9)
+    printData("Generic Function")
+
+    println(getData(88.8))
+    println(getData("Kotlin"))
 }
