@@ -7,4 +7,12 @@ fun main() {
     name?.let {
         println("Length: ${it.length}")
     }
+
+    val result = run {
+        val a = 10
+        val b = 20
+        a + b
+    }
+
+    println(result)
 }
