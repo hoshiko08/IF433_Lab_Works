@@ -27,9 +27,7 @@ fun main() {
         println("Peringatan: ${e.message}")
     } catch (e: Exception) {
         println("Terjadi kesalahan umum: ${e.message}")
-    }
-
-    finally {
+    } finally {
         println("Siklus pengecekan dispenser pagi selesai.")
     }
 
@@ -42,10 +40,11 @@ fun main() {
 
     feedingResult.onSuccess { newStock ->
         currentKibbleStock = newStock
-        println("Makan sore sukses! Sisa stok kibble: $currentKibbleStock gr") [cite: 172]
+        println("Makan sore sukses! Sisa stok kibble: $currentKibbleStock gr")
     }
 
         .onFailure { error ->
-            println("Peringatan ke Pemilik: ${error.message}") [cite: 176]
-            println("(Opsional: Berikan chicken jerky secara manual)") [cite: 177]
+            println("Peringatan ke Pemilik: ${error.message}")
+            println("(Opsional: Berikan chicken jerky secara manual)")
         }
+}
