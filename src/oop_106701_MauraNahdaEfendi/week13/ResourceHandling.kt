@@ -15,4 +15,10 @@ fun main() {
         writerSafe.println("Menulis file dengan use block.")
         writerSafe.println("Resource otomatis ditutup.")
     }
+
+    File("safe_use.txt").bufferedReader().use { reader ->
+        reader.forEachLine {
+            println(it)
+        }
+    }
 }
