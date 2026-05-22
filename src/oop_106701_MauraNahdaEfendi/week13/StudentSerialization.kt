@@ -40,3 +40,21 @@ fun loadStudents(path: String): List<Student> {
         emptyList()
     }
 }
+
+fun main() {
+    val students = listOf(
+        Student("0001", "Maura", 3.90),
+        Student("0002", "Andi", 3.75),
+        Student("0003", "Budi", 3.50)
+    )
+
+    saveStudents(students, "students.csv")
+
+    val loadedStudents = loadStudents("students.csv")
+
+    println("=== STUDENT DATA ===")
+
+    loadedStudents.forEach {
+        println(it)
+    }
+}
