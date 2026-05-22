@@ -6,4 +6,6 @@ fun main() {
     val file = File("journal.txt")
 
     file.writeText("Hari ini belajar File I/O di Kotlin.\n")
+
+    file.appendText("Besok belajar Data Serialization.\n")
 }
