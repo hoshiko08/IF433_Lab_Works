@@ -1,0 +1,13 @@
+package oop_106701_MauraNahdaEfendi.week13
+
+import java.io.File
+import java.io.PrintWriter
+
+fun main() {
+    val writer = PrintWriter(File("manual_close.txt"))
+
+    writer.println("Belajar manual close stream.")
+    writer.println("Jangan lupa ditutup!")
+
+    writer.close()
+}
