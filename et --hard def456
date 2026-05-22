@@ -1,0 +1,94 @@
+[33me8c449c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33md686eea[m HEAD@{1}: commit: week13: implement basic writeText function
+[33me8c449c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: reset: moving to HEAD~1
+[33mf582c35[m HEAD@{3}: commit: week13: implement appendText operation
+[33me8c449c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{4}: commit: week12: (task) test full robust smart feeder pipeline
+[33m1d34a38[m HEAD@{5}: commit: week12: (task) handle feeding failure using onFailure
+[33m8553764[m HEAD@{6}: commit: week12: (task) handle feeding success using onSuccess
+[33m10848af[m HEAD@{7}: commit: week12: (task) execute feeding using runCatching
+[33m30385fb[m HEAD@{8}: commit: week12: (task) implement finally block for feeder logging
+[33m390a385[m HEAD@{9}: commit: week12: (task) handle feeding execution with multiple catch
+[33mfdcb7f4[m HEAD@{10}: commit: week12: (task) setup SmartFeeder main function
+[33m583cda0[m HEAD@{11}: commit: week12: (task) implement food stock validation with throw
+[33ma30be0f[m HEAD@{12}: commit: week12: (task) implement hardware validation with throw
+[33m11622ef[m HEAD@{13}: commit: week12: (task) implement dispenseKibble function
+[33mccc0143[m HEAD@{14}: commit: week12: (task) create custom feeder exception subclasses
+[33m8dbfb4b[m HEAD@{15}: commit: week12: (task) create FeederException sealed class
+[33mde99eb3[m HEAD@{16}: commit: week12: implement onSuccess and onFailure chaining
+[33m81ff6bd[m HEAD@{17}: commit: week12: handle Result using getOrElse and recover
+[33m37c083b[m HEAD@{18}: commit: week12: implement basic runCatching
+[33mcbc4098[m HEAD@{19}: commit: week12: implement multiple catch blocks
+[33mdc26edd[m HEAD@{20}: commit: week12: implement throw keyword for validation
+[33m50efa2b[m HEAD@{21}: commit: week12: create Insufficient Funds exception
+[33mcfe3520[m HEAD@{22}: commit: week12: implement try as expression
+[33mb284194[m HEAD@{23}: commit: week12: create basic try-catch-finally
+[33ma1350a8[m HEAD@{24}: commit: week10: (task) test full generic crypto architecture
+[33mdb6f938[m HEAD@{25}: commit: week10: (task) initialize and populate transaction repository
+[33ma1b506e[m HEAD@{26}: commit: week10: (task) print dashboard using forEach on generic list
+[33m3217dd5[m HEAD@{27}: commit: week10: (task) wrap repository data into ApiResponse
+[33m5c41af6[m HEAD@{28}: commit: week10: (task) populate coin repository
+[33m7648216[m HEAD@{29}: commit: week10: (task) initialize coin repository
+[33m06364e8[m HEAD@{30}: commit: week10: (task) implement search logic in repository
+[33mc455f9e[m HEAD@{31}: commit: week10: (task) create generic ApiResponse wrapper
+[33m61ab7c6[m HEAD@{32}: commit: week10: (task) implement generic WalletRepository
+[33mf3c449e[m HEAD@{33}: commit: week10: (task) create Coin and Transaction models
+[33mbfafbe3[m HEAD@{34}: commit: week10: test math operations and comparable constraints
+[33ma445317[m HEAD@{35}: commit: week10: implement where clause for comparable constraints
+[33m64d7763[m HEAD@{36}: commit: week10: implement type constraint for numeric types
+[33mc105836[m HEAD@{37}: commit: week10: test generic functions with Double and String
+[33mc35775e[m HEAD@{38}: commit: week10: implement generic function with return type
+[33m7df5765[m HEAD@{39}: commit: week10: implement basic generic function printData
+[33m526f4da[m HEAD@{40}: commit: week10: implement PairBox in main function
+[33m30a01f4[m HEAD@{41}: commit: week10: create PairBox class with multiple type parameters
+[33md651be1[m HEAD@{42}: commit: week10: instantiate Box with Int and String types
+[33m917c514[m HEAD@{43}: commit: week10: create generic Box class
+[33m13d6602[m HEAD@{44}: commit: week11: (task) test full smart home configuration pipeline
+[33m7ced193[m HEAD@{45}: commit: week11: (task) calculate total power usage
+[33m818177d[m HEAD@{46}: commit: week11: (task) format dashboard output using with
+[33m87dc61a[m HEAD@{47}: commit: week11: (task) implement device search with let
+[33m6b7398d[m HEAD@{48}: commit: week11: (task) configure AC unit using run
+[33m45a4fd0[m HEAD@{49}: commit: week11: (task) configure Ezviz camera with also
+[33m8448a17[m HEAD@{50}: commit: week11: (task) configure Philips WiZ using apply
+[33m3e9d3ec[m HEAD@{51}: commit: week11: (task) initialize smart home device list
+[33m0cf79bd[m HEAD@{52}: commit: week11: (task) create extension function for SmartDevice
+[33mbf93075[m HEAD@{53}: commit: week11: (task) create SmartDevice data class
+[33m0678716[m HEAD@{54}: commit: week11: combine apply and also in object setup
+[33mab30507[m HEAD@{55}: commit: week11: implement with function for multiple operations
+[33mb2c92ee[m HEAD@{56}: commit: week11: implement also for logging side effects
+[33m6113517[m HEAD@{57}: commit: week11: implement apply for object initialization
+[33m79b634d[m HEAD@{58}: commit: week11: create user class for scope function tests
+[33m42a0f66[m HEAD@{59}: commit: week11: implement run function for object computation
+[33m714f3c0[m HEAD@{60}: commit: week11: implement let function for null safety
+[33m46688f8[m HEAD@{61}: commit: week11: test extension functions in main
+[33mac7f6e7[m HEAD@{62}: commit: week11: create nullable receiver extension
+[33m8398b89[m HEAD@{63}: commit: week11: create string extension functions
+[33mf2688c7[m HEAD@{64}: commit: week09: (task) test full crypto trading data pipeline
+[33mce7e951[m HEAD@{65}: commit: week09: (task) print worst performers and unique pairs
+[33mf17d911[m HEAD@{66}: commit: week09: (task) print top performers using forEach
+[33m333100f[m HEAD@{67}: commit: week09: (task) extract unique trading pairs using map and toSet
+[33mfa0df78[m HEAD@{68}: commit: week09: (task) chain sortedBy and map for worst performers
+[33m2a0e1df[m HEAD@{69}: commit: week09: (task) chain sortedByDescending and map for top performers
+[33mf6333eb[m HEAD@{70}: commit: week09: (task) extract losing trades using filter
+[33m96e003c[m HEAD@{71}: commit: week09: (task) extract winning trades using filter
+[33m1d54fbd[m HEAD@{72}: commit: week09: (task) filter CLOSED trades only
+[33me37fdd6[m HEAD@{73}: commit: week09: (task) populate mock trade history list
+[33m184eb94[m HEAD@{74}: commit: week09: (task) create TradeLog data class
+[33m0d8ce0e[m HEAD@{75}: commit: week09: chain filter, sortedBy, and map on object collection
+[33m98a0204[m HEAD@{76}: commit: week09: create Student data class and list
+[33mb5a8884[m HEAD@{77}: commit: week09: implement sortedByDescending and forEach
+[33m638b540[m HEAD@{78}: commit: week09: implement map HOF for data transformation
+[33m6a66879[m HEAD@{79}: commit: week09: implement filter HOF to extract data
+[33mdd90668[m HEAD@{80}: commit: week09: create basic lambdas using explicit and implicit syntax
+[33m75750c3[m HEAD@{81}: commit: week09: implement map for key-value storage
+[33m1971627[m HEAD@{82}: commit: week09: implement set to discard duplicate elements
+[33m7585593[m HEAD@{83}: commit: week09: create immutable and mutable list
+[33m6b27707[m HEAD@{84}: commit: week08: (task) test full e-commerce pipeline in main
+[33m87c4128[m HEAD@{85}: commit: week08: (task) process mixed raw JSON list using as?
+[33m6a84d43[m HEAD@{86}: commit: week08: (task) implement payment processing with !!
+[33m3d50fb5[m HEAD@{87}: commit: week08: (task) create JavaPaymentService for payment interop
+[33m3e3d8b0[m HEAD@{88}: commit: week08: (task) implement robust ApiParser using Elvis and requireNotNull
+[33m56c12b4[m HEAD@{89}: commit: week08: (task) create sealed class Product and data classes
+[33m57a82dd[m HEAD@{90}: commit: week08: simulate unit test failure using !!
+[33m9eff54b[m HEAD@{91}: commit: week08: implement java interop using !!
+[33mfdd5017[m HEAD@{92}: commit: week08: create LegacyJavaAPI class in Java
+[33mf35767c[m HEAD@{93}: commit: week08: implement requireNotNull as s

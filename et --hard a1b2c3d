@@ -1,0 +1,122 @@
+[33me8c449c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m week12: (task) test full robust smart feeder pipeline
+[33m1d34a38[m week12: (task) handle feeding failure using onFailure
+[33m8553764[m week12: (task) handle feeding success using onSuccess
+[33m10848af[m week12: (task) execute feeding using runCatching
+[33m30385fb[m week12: (task) implement finally block for feeder logging
+[33m390a385[m week12: (task) handle feeding execution with multiple catch
+[33mfdcb7f4[m week12: (task) setup SmartFeeder main function
+[33m583cda0[m week12: (task) implement food stock validation with throw
+[33ma30be0f[m week12: (task) implement hardware validation with throw
+[33m11622ef[m week12: (task) implement dispenseKibble function
+[33mccc0143[m week12: (task) create custom feeder exception subclasses
+[33m8dbfb4b[m week12: (task) create FeederException sealed class
+[33mde99eb3[m week12: implement onSuccess and onFailure chaining
+[33m81ff6bd[m week12: handle Result using getOrElse and recover
+[33m37c083b[m week12: implement basic runCatching
+[33mcbc4098[m week12: implement multiple catch blocks
+[33mdc26edd[m week12: implement throw keyword for validation
+[33m50efa2b[m week12: create Insufficient Funds exception
+[33mcfe3520[m week12: implement try as expression
+[33mb284194[m week12: create basic try-catch-finally
+[33ma1350a8[m week10: (task) test full generic crypto architecture
+[33mdb6f938[m week10: (task) initialize and populate transaction repository
+[33ma1b506e[m week10: (task) print dashboard using forEach on generic list
+[33m3217dd5[m week10: (task) wrap repository data into ApiResponse
+[33m5c41af6[m week10: (task) populate coin repository
+[33m7648216[m week10: (task) initialize coin repository
+[33m06364e8[m week10: (task) implement search logic in repository
+[33mc455f9e[m week10: (task) create generic ApiResponse wrapper
+[33m61ab7c6[m week10: (task) implement generic WalletRepository
+[33mf3c449e[m week10: (task) create Coin and Transaction models
+[33mbfafbe3[m week10: test math operations and comparable constraints
+[33ma445317[m week10: implement where clause for comparable constraints
+[33m64d7763[m week10: implement type constraint for numeric types
+[33mc105836[m week10: test generic functions with Double and String
+[33mc35775e[m week10: implement generic function with return type
+[33m7df5765[m week10: implement basic generic function printData
+[33m526f4da[m week10: implement PairBox in main function
+[33m30a01f4[m week10: create PairBox class with multiple type parameters
+[33md651be1[m week10: instantiate Box with Int and String types
+[33m917c514[m week10: create generic Box class
+[33m13d6602[m week11: (task) test full smart home configuration pipeline
+[33m7ced193[m week11: (task) calculate total power usage
+[33m818177d[m week11: (task) format dashboard output using with
+[33m87dc61a[m week11: (task) implement device search with let
+[33m6b7398d[m week11: (task) configure AC unit using run
+[33m45a4fd0[m week11: (task) configure Ezviz camera with also
+[33m8448a17[m week11: (task) configure Philips WiZ using apply
+[33m3e9d3ec[m week11: (task) initialize smart home device list
+[33m0cf79bd[m week11: (task) create extension function for SmartDevice
+[33mbf93075[m week11: (task) create SmartDevice data class
+[33m0678716[m week11: combine apply and also in object setup
+[33mab30507[m week11: implement with function for multiple operations
+[33mb2c92ee[m week11: implement also for logging side effects
+[33m6113517[m week11: implement apply for object initialization
+[33m79b634d[m week11: create user class for scope function tests
+[33m42a0f66[m week11: implement run function for object computation
+[33m714f3c0[m week11: implement let function for null safety
+[33m46688f8[m week11: test extension functions in main
+[33mac7f6e7[m week11: create nullable receiver extension
+[33m8398b89[m week11: create string extension functions
+[33mf2688c7[m week09: (task) test full crypto trading data pipeline
+[33mce7e951[m week09: (task) print worst performers and unique pairs
+[33mf17d911[m week09: (task) print top performers using forEach
+[33m333100f[m week09: (task) extract unique trading pairs using map and toSet
+[33mfa0df78[m week09: (task) chain sortedBy and map for worst performers
+[33m2a0e1df[m week09: (task) chain sortedByDescending and map for top performers
+[33mf6333eb[m week09: (task) extract losing trades using filter
+[33m96e003c[m week09: (task) extract winning trades using filter
+[33m1d54fbd[m week09: (task) filter CLOSED trades only
+[33me37fdd6[m week09: (task) populate mock trade history list
+[33m184eb94[m week09: (task) create TradeLog data class
+[33m0d8ce0e[m week09: chain filter, sortedBy, and map on object collection
+[33m98a0204[m week09: create Student data class and list
+[33mb5a8884[m week09: implement sortedByDescending and forEach
+[33m638b540[m week09: implement map HOF for data transformation
+[33m6a66879[m week09: implement filter HOF to extract data
+[33mdd90668[m week09: create basic lambdas using explicit and implicit syntax
+[33m75750c3[m week09: implement map for key-value storage
+[33m1971627[m week09: implement set to discard duplicate elements
+[33m7585593[m week09: create immutable and mutable list
+[33m6b27707[m week08: (task) test full e-commerce pipeline in main
+[33m87c4128[m week08: (task) process mixed raw JSON list using as?
+[33m6a84d43[m week08: (task) implement payment processing with !!
+[33m3d50fb5[m week08: (task) create JavaPaymentService for payment interop
+[33m3e3d8b0[m week08: (task) implement robust ApiParser using Elvis and requireNotNull
+[33m56c12b4[m week08: (task) create sealed class Product and data classes
+[33m57a82dd[m week08: simulate unit test failure using !!
+[33m9eff54b[m week08: implement java interop using !!
+[33mfdd5017[m week08: create LegacyJavaAPI class in Java
+[33mf35767c[m week08: implement requireNotNull as safer alternative
+[33mca1d2e5[m week08: (trial) trigger NullPointerException with !!
+[33mcaf7ee7[m week08: create fallback logic with as? and elvis
+[33md6301e4[m week08: implement safe casting as? to filter collection
+[33mb8aedd3[m week08: create mixed data collection
+[33mbf6977a[m week08: implement safe call with let block
+[33m355799d[m week08: implement chained safe calls and elvis
+[33m8686ead[m week08: create nested classes for Order
+[33m6515610[m week08: implement smart cast in function
+[33m9c9a47a[m week08: create basic UserProfile with nullable fields
+[33mbb9b9e4[m week06: (task) test smart home system logic in main
+[33medb3e1f[m week06: (task) implement advanced smart casting in Hub
+[33mf632349[m week06: (task) create SmartHomeHub logic
+[33me529357[m week06: (task) create SmartCCTV with compound interfaces
+[33m7b84e36[m week06: (task) create SmartSpeaker
+[33mc698d13[m week06: (task) create SmartLamp
+[33ma75fff1[m week06: fix error in  implement decoupled processCheckout in main
+[33m47e13b0[m week06: implement decoupled processCheckout in main
+[33m35b0f8f[m week06: create Gopay and CreditCard
+[33m517f8c2[m week06: create PaymentMethod contract
+[33m3391607[m week06: fix diamond problem using explicit super delegation
+[33m8c897ee[m week06: (trial) trigger the diamond problem compiler error
+[33m7f68e54[m week06: create Camera and Phone interfaces with default methods
+[33m7ad487b[m week06: create Smartwatch with multiple implementations
+[33m1f64d88[m week06: create compound interfaces
+[33m039b8c6[m week06: create Watch abstract class
+[33mea82666[m week06: create Button class implementing Clickable
+[33m7bf78e9[m week06: fix Clickable interface using abstract property
+[33m7af0ea6[m week 06: (trial) create Clickbait interface with backing feild error
+[33ma93e733[m week05: (task 2) implement payment polymorphism & week05: (task 2) add smart casting for EWallet topUp recovery
+[33mb36838e[m week05: (task 2) create CreditCard class
+[33m0d74927[m week05: (task 2) create EWallet class
+[33m639a7c9[m week05: (task 2) create abstract PaymentMeth
