@@ -58,6 +58,7 @@ fun main() {
     )
 
     saveTrades(trades, "crypto_trades.csv")
+
     File("crypto_trades.csv")
         .appendText("CORRUPT_ID,DOGEUSDT,Hold,XX,YY\n")
 
@@ -66,5 +67,12 @@ fun main() {
     val totalPnl = loadedData.sumOf {
         it.pnl
     }
-}
 
+    println("=== VALID TRADE RECORDS ===")
+
+    loadedData.forEach {
+        println(it)
+    }
+
+    println("==== TOTAL PnL BERSIH: $totalPnl ====")
+}
