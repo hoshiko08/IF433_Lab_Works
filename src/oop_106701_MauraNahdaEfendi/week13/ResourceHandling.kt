@@ -10,4 +10,9 @@ fun main() {
     writer.println("Jangan lupa ditutup!")
 
     writer.close()
+
+    File("safe_use.txt").printWriter().use { writerSafe ->
+        writerSafe.println("Menulis file dengan use block.")
+        writerSafe.println("Resource otomatis ditutup.")
+    }
 }
