@@ -1,5 +1,8 @@
 package oop_106701_MauraNahdaEfendi.week13
 
+import java.io.File
+import java.io.FileNotFoundException
+
 data class Student(
     val nim: String,
     val name: String,
@@ -18,4 +21,22 @@ fun fromCsv(line: String): Student {
         parts[1],
         parts[2].toDouble()
     )
+}
+
+fun saveStudents(students: List<Student>, path: String) {
+    File(path).printWriter().use { writer ->
+        students.forEach {
+            writer.println(it.toCsv())
+        }
+    }
+}
+
+fun loadStudents(path: String): List<Student> {
+    return try {
+        File(path).readLines().map {
+            fromCsv(it)
+        }
+    } catch (e: FileNotFoundException) {
+        emptyList()
+    }
 }
