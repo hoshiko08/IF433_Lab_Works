@@ -8,4 +8,15 @@ fun main() {
     file.writeText("Hari ini belajar File I/O di Kotlin.\n")
 
     file.appendText("Besok belajar Data Serialization.\n")
+
+    val allText = file.readText()
+    println("=== readText() ===")
+    println(allText)
+
+    val lines = file.readLines()
+    println("=== readLines() ===")
+
+    lines.forEach {
+        println(it)
+    }
 }
