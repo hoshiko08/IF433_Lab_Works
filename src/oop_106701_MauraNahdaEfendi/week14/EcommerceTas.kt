@@ -54,3 +54,15 @@ class SafeOrderProcessor(
     private val repo: OrderRepository,
     private val notifier: NotificationService
 )
+
+interface PricingStrategy {
+    fun calculate(price: Double): Double
+}
+
+class VipPricing : PricingStrategy {
+    override fun calculate(price: Double) = price * 0.90
+}
+
+class RegularPricing : PricingStrategy {
+    override fun calculate(price: Double) = price
+}
