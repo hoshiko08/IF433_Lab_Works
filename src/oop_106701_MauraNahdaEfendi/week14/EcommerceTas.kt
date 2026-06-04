@@ -27,3 +27,30 @@ class BadOrderProcessor {
         )
     }
 }
+
+interface OrderRepository {
+    fun saveOrder(itemName: String, price: Double)
+}
+
+class CsvOrderRepository : OrderRepository {
+
+    override fun saveOrder(itemName: String, price: Double) {
+        File("orders.csv").appendText("$itemName,$price\n")
+    }
+}
+
+interface NotificationService {
+    fun sendNotification(message: String)
+}
+
+class EmailNotifier : NotificationService {
+
+    override fun sendNotification(message: String) {
+        println("Email: $message")
+    }
+}
+
+class SafeOrderProcessor(
+    private val repo: OrderRepository,
+    private val notifier: NotificationService
+)
